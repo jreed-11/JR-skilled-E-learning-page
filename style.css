@@ -41,3 +41,37 @@
   --lh-600: 3.187rem; /* 51px */
   --lh-700: 4.375rem; /* 70px */
 }
+
+/* Utility Classes */
+
+.d-grid {
+  display: grid;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.main-container {
+  margin-inline: auto;
+  max-width: 69.4rem;
+}
+
+/* Hero Grid Area */
+
+.hero-grid {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "grid-header grid-header"
+    "grid-content grid-img";
+}
+
+.hero__img {
+  max-width: 40rem;
+}
+
+.hero__grid__header {
+  align-items: center;
+  justify-content: space-between;
+  grid-area: grid-header;
+}
