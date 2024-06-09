@@ -5,3 +5,39 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  /* colours */
+
+  /* text Colours */
+  --clr-primary: #83869a;
+  --clr-secondary: #ffffff;
+  --clr-alt: #f74780;
+
+  /* Button colors */
+  --clr-btn1: #13183f;
+  /* Button gradients */
+  --clr-btn2: rgb(240, 42, 166), rgb(255, 111, 72), hsl(322, 87%, 55%),
+    hsl(13 100% 64%);
+  --clr-btn3: rgb(72, 81, 255), rgb(240, 42, 166), hsl(237, 100%, 64%),
+    hsl(322, 87%, 55%);
+  /* Button Hoover States  */
+  --clr-btnHoover1: #666ca3;
+  --clr-btnhoover2: #ffa7c3;
+
+  /* Font Sizes */
+
+  --fs-400: 1rem; /* 16px */
+  --fs-500: 1.125rem; /* 18px*/
+  --fs-600: 1.5rem; /* 24px */
+  --fs-700: 2rem; /* 32px */
+  --fs-800: 2.5rem; /* 40px */
+  --fs-900: 3.5rem; /* 56px */
+
+  /* Line Heights */
+
+  --lh-400: 1.75rem; /* 28px */
+  --lh-500: 2.5rem; /* 40px */
+  --lh-600: 3.187rem; /* 51px */
+  --lh-700: 4.375rem; /* 70px */
+}
