@@ -91,7 +91,7 @@ body {
 /* Hero Grid Area */
 
 .hero-grid {
-  grid-template-columns: 40% 1fr;
+  grid-template-columns: 80% fit-content;
   grid-template-areas:
     "grid-content grid-img"
     "grid-content grid-img";
@@ -105,7 +105,7 @@ body {
 
 .hero__img {
   border: 2px solid blue;
-  object-position: 22rem -12rem;
+  object-position: 15rem -8rem;
 }
 
 /* .hero__grid__header {
