@@ -91,32 +91,31 @@ body {
 /* Hero Grid Area */
 
 .hero-grid {
-  grid-template-columns: 80% fit-content;
+  grid-template-columns: 2fr, 1fr;
   grid-template-areas:
-    "grid-content grid-img"
+    "grid-header grid-header"
     "grid-content grid-img";
+
   max-width: 100%;
 }
 
 .hero__grid__img {
-  flex-direction: column;
-  position: relative;
 }
 
 .hero__img {
   border: 2px solid blue;
-  object-position: 15rem -8rem;
 }
 
-/* .hero__grid__header {
+.hero__grid__header {
+  /* border: 2px solid red; */
   align-items: center;
   grid-area: grid-header;
   justify-content: space-between;
   margin-top: 1.5rem;
-
-} */
+}
 
 .hero__grid__content {
+  border: 2px solid yellow;
   align-self: center;
   grid-area: grid-content;
 }
@@ -129,8 +128,8 @@ body {
 .hero__grid__btn {
   align-self: end;
   background-color: var(--clr-btn1);
+
   margin-right: 10.32rem;
-  position: absolute;
 }
 
 /* Info Grid Area */
