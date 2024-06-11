@@ -93,8 +93,7 @@ body {
 .hero-grid {
   grid-template-columns: 2fr, 1fr;
   grid-template-areas:
-    "grid-header grid-header"
-    "grid-content grid-img";
+    /* "grid-header grid-header" */ "grid-content grid-img";
 
   max-width: 100%;
 }
