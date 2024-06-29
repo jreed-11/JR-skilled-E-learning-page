@@ -93,16 +93,30 @@ body {
 .hero-grid {
   grid-template-columns: 2fr, 1fr;
   grid-template-areas:
-    /* "grid-header grid-header" */ "grid-content grid-img";
-
+    "grid-header grid-header"
+    "grid-content grid-img";
+  /* position: relative; */
   max-width: 100%;
 }
 
+.hero__grid__header {
+  position: relative;
+}
+
 .hero__grid__img {
+  grid-area: grid-img;
+  position: absolute;
+  left: 850px;
+  top: -100px;
+
+  z-index: -1;
 }
 
 .hero__img {
   border: 2px solid blue;
+  /* position: absolute; */
+  object-fit: none;
+  object-position: 300px 100%;
 }
 
 .hero__grid__header {
